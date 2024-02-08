@@ -1,0 +1,5 @@
+ssh -L 16006:127.0.0.1:6006 yl@10.134.162.65 -p 2280
+
+conda activate yl
+
+tensorboard --logdir="/media/yl/yl_8t/sphereTrans/tmp/model_sphereTrans_v5/train"
